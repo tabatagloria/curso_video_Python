@@ -1,7 +1,7 @@
 #separando números
 
 print('Separando numeros com String: ')
-numero = input('Digite um número de 0 a 9999: ')
+numero = str(input('Digite um número de 0 a 9999: ')).strip()
 if len(numero) == 4:
     print('Unidade: {}'.format(numero[3]))
     print('Dezena: {}'.format(numero[2]))

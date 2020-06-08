@@ -1,4 +1,4 @@
-#input com mensagem de boas-vindas
+#input e respondendo ao usuario
 
 nome = input('Qual é o seu nome? ')
 

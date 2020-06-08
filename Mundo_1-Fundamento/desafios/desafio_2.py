@@ -1,4 +1,4 @@
-#input com formatação de data
+#input com formatação de data de nascimento
 
 dia = input ('Dia = ')
 mes = input ('Mês = ')

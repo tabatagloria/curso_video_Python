@@ -1,4 +1,4 @@
-#calculo de área
+#calculo de litros de tinta para pintar uma parede
 
 largura = float(input('Qual a largura de uma parede? '))
 altura = float(input('Qual é a altura? '))

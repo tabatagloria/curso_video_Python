@@ -1,6 +1,6 @@
 #manipulando strings
 
-nome = input('Digite seu nome completo: ')
+nome = str(input('Digite seu nome completo: ')).strip()
 novo = nome.split()
 print ('Nome em Maiúculo: {}'.format(nome.upper()))
 print('Nome em Minúsculo: {}'.format(nome.lower()))
