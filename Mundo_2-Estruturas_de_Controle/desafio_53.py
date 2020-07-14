@@ -1,4 +1,5 @@
 #palindrome
+
 frase = input('Digite uma frase: ').lower()
 nova = frase.replace(' ', '')
 palin = nova[::-1]

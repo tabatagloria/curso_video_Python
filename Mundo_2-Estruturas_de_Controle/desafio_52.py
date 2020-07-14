@@ -1,13 +1,13 @@
 #análise de número primo 
-#ver correção
 
 n = int(input('Digite um número: '))
-if n <= 1:
-    print('Número não é primo')
-elif n == 2:
-    print('É número primo: ')
-elif n % 2 != 0 and n % 5 != 0 and n % 3 != 0 and n % 7 != 0:
-    print('Número primo')
+cont = 0 
+for i in range(1, n +1):
+    if n % i == 0:
+        cont += 1
+if cont == 2:
+    print('PRIMO')
 else:
-    print('Número não é primo')
+    print('NÃO É PRIMO')
+
 

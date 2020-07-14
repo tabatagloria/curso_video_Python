@@ -3,15 +3,20 @@
 media = 0
 velho = 0
 calc = 0
+nomevelho = ''
 for i in range(4):
     print('{}ª Pessoa: '.format(i+1))
     nome = input('Nome: ')
     idade = int(input('Idade: '))
     sexo = int(input('1 - Masculino ou 2 - Feminino '))
     media += idade
-    if sexo == 1 and velho < idade:
-        nome2 = nome
-    elif sexo == 2 and idade > 20:
+    if i == 1 and sexo == 1:
+        velho = idade
+        nomevelho = nome
+    elif sexo == 1 and idade > velho:
+        velho = idade
+        nomevelho = nome
+    elif sexo == 2 and idade < 20:
         calc += 1
 
 print('Média de idade: {}'.format(media / 4))

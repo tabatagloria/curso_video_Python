@@ -1,15 +1,16 @@
 #análise de peso
-#assistir video
-
 
 maior = 0
 menor = 0
 for i in range(5):
     peso = float(input('Digite o peso da {}ª pessoa: '.format(i+1)))
-    if maior < peso:
+    if i == 1:
         maior = peso
+        menor = peso
     else:
-        aux = maior
-        if peso > aux:
+        if peso >  maior :
+            maior = peso
+        if peso < menor:
             menor = peso
-print(maior, menor)
+print('O maior peso lido é: {}'.format(maior))
+print('O menor peso lido é: {}'.format(menor))
