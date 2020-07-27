@@ -1,3 +1,4 @@
+#tratando vários valores
 n = 0
 calc = 0
 cont = 0

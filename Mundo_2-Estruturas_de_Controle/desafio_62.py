@@ -1,3 +1,4 @@
+#melhorando progressão aritmética
 razao = 0
 cont = 0
 termo = 1

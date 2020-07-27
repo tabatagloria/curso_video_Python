@@ -1,3 +1,4 @@
+#calculando fatorial com while
 n = int(input('Digite um número: '))
 fatorial = 1
 n1 = n

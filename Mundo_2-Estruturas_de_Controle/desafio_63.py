@@ -1,3 +1,4 @@
+#sequência de Fibonacci
 n = int(input('Digite um número: '))
 calc = 1
 cont = 0

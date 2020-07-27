@@ -1,3 +1,4 @@
+#média, maior e menor
 n = 0
 maior = 0
 menor = n
