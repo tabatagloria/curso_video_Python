@@ -4,6 +4,6 @@ razao = int(input('Digite a razão da progressão aritmética: '))
 cont = 0
 calc = termo
 while cont < 10:
-    calc = calc + razao
+    calc += razao
     cont += 1
     print(calc)

@@ -1,9 +1,14 @@
 #sequência de Fibonacci
-n = int(input('Digite um número: '))
-calc = 1
-cont = 0
-while cont < n:
+n = int(input('Quantos termo da Sequência de Fibonaci você quer mostrar: '))
+t1 = 0
+t2 = 1
+cont = 3
+print ('{} -> {}'.format(t1, t2), end='')
+while cont <= n:
+    t3 = t1 + t2
+    print (' -> {}'.format(t3), end='')
     cont += 1
-    calc = calc + (calc - 1)
-    print ('{} -> {}'.format(cont, calc))
+    t1 = t2
+    t2 = t3   
+print('\nFim do Programa')
     
